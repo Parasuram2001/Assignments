@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- &#128512 imogies -->
+    <!-- &#129500 -->
+    <form action="" method="get" target="_self" autocomplete="off"> <!--in target attribute blank is also used. In method attribute get is also used-->
+        <fieldset style="background-color: gray;">
+            <legend>Form</legend>
+        <table bgcolor="pink">
+            <tr>
+                <td><label for="FN">First Name</label></td>
+                <td><input type="text" id="FN" name="first name"  placeholder="First Name" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="LN">Last name</label></td>
+                <td><input type="text" id="LN" name="last name"  placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="No">Number</label></td>
+                <td><input type="number" id="No" name="number"  placeholder="Number" required></td> <!--ctrl & space to open built in inputs-->
+            </tr>
+            <tr>
+                <td><label for="Email">E-mail Id</label></td>
+                <td><input type="email" id="Email" name="mail"   placeholder="E-mail Id" required></td>
+            </tr>
+            <tr>
+                <td><label for="Addr">Address</label></td>
+                <!-- <td><input type="text" id="Addr"></td> Instead of this we can take text area-->
+                <td><textarea name="" id="Addr" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB</label></td>
+                <!-- <td><input type="date" id="dob"></td> -->
+                <td><input type="month" id="dob" name="dob"></td><!--instead we can use "date,datetime,datetime local"-->
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="pass" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="g">Gender</label></td>
+                <td>
+                    <input type="radio" id="g" name="gender" value="male">Male
+                    <input type="radio" id="g" name="gender" value="female">Female
+                    <input type="radio" id="g" name="gender" value="others">Others
+                </td>
+            </tr>
+                <tr>
+                    <td><label for="spo">Sports</label></td>
+                    <td>
+                    <input type="checkbox" id="spo" name="spor" value="cricket">cricket <!--to tick multiple options in the form check is used-->
+                    <input type="checkbox" id="spo" name="spor" value="football">football
+                    <input type="checkbox" id="spo" name="spor" value="hocky">hocky
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fy">Choose a file</label></td>
+                    <td><input type="file" id="fy"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Places</label></td>
+                    <td>
+                        <select name="" id="">
+                        <option value=""></option>
+                        <option value="Australia">Austral</option>
+                        <option value="England">England</option>
+                        <option value="Zimbambwe">Zimbambwe</option>
+                        <option value="Uganda" selected>Uganda</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Upload an image</label></td>
+                    <td><input type="image" src="/HTML/images/nature.jpg" height="50px" width="50px"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="col">color</label></td>
+                    <td><input type="color" id="col" name="col"></td>
+                </tr>
+            
+
+            <tr>
+                <td><label for="hid">hidden</label></td>
+                <td><input type="hidden" id="hid" name="hid">some data</td>
+            </tr>
+
+            <tr>
+                <td><label for="">select a range</label></td>
+                <td><input type="range"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ser"></label>search</td>
+                <td><input type="search" id="ser" name="ser"></td>
+            </tr>
+
+            <tr>
+                <td><label for="url">Enter the URL</label></td>
+                <td><input type="url" id="url" name="url"></td>
+            </tr>
+
+            <tr>
+                <td><label for="tech">Technologies</label></td>
+                <td><input list="techs" id="tech" name="techno">
+                    <datalist id="techs">
+                        <option value="html"></option>
+                        <option value="css"></option>
+                        <option value="java"></option>
+                        
+                        <option value="react"></option>
+                        <option value="node"></option>
+                    </datalist>
+
+                <td></td>
+
+            </tr>
+            
+
+
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+                <td><button type="menu">menu</button></td>
+                <td><button type="button">button</button></td>
+            </tr>
+
+            <tr>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </tr>
+
+        </table>
+        
+       
+        </fieldset>
+    </form>
+    <table>
+        <tr>
+            <input type="url">
+            <button type="submit">submit</button>
+        </tr>
+    </table>
+</body>
+</html>
